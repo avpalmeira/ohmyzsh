@@ -25,7 +25,9 @@ alias dev='cd ~/local-dev'
 alias dot='cd ~/dotfiles'
 
 # Projects
-alias clique='cd ~/local-dev/izepay/clique'
+alias rclq='cd ~/local-dev/izepay/clique && vagrant up && cd htdocs'
+alias cclq='cd ~/local-dev/izepay/clique/htdocs && vim .'
+alias dclq='cd ~/local-dev/izepay/clique/htdocs'
 
 # Edit config files
 alias cfv='vim ~/.vimrc'
@@ -36,5 +38,4 @@ alias cfy='vim ~/.config/alacritty/alacritty.yml'
 alias cfz='vim ~/.zshrc'
 alias cfg='vim ~/.gitconfig'
 alias cfm='vim ~/.Xmodmap'
-alias cfx='vim ~/.xsessionrc'
 alias cfh='sudo vim /etc/hosts'

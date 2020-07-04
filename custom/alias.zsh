@@ -1,9 +1,11 @@
 # Define custom aliases
 
-# Terminal
+# Terminal and Configs
 alias c='clear'
 alias chbash='chsh -s $(which bash)'
 alias reload='exec zsh'
+alias langde='setxkbmap de && xmodmap ~/dotfiles/Xmodmap/Xmodmap.de'
+alias langpt='setxkbmap pt && xmodmap ~/dotfiles/Xmodmap/Xmodmap.pt'
 
 # Navigation
 alias h='cd ~'
@@ -34,3 +36,7 @@ alias cfz='vim ~/.zshrc'
 alias cfg='vim ~/.gitconfig'
 alias cfm='vim ~/.Xmodmap'
 alias cfh='sudo vim /etc/hosts'
+
+# Tools
+alias svim='vim -u ~/.SpaceVim/vimrc'
+alias fd='fdfind'

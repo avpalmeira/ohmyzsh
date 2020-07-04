@@ -5,7 +5,7 @@ alias c='clear'
 alias chbash='chsh -s $(which bash)'
 alias reload='exec zsh'
 alias langde='setxkbmap de && xmodmap ~/dotfiles/Xmodmap/Xmodmap.de'
-alias langpt='setxkbmap pt && xmodmap ~/dotfiles/Xmodmap/Xmodmap.pt'
+alias langpt='setxkbmap br && xmodmap ~/dotfiles/Xmodmap/Xmodmap.pt'
 
 # Navigation
 alias h='cd ~'

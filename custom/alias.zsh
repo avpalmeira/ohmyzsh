@@ -2,10 +2,11 @@
 
 # Terminal and Configs
 alias c='clear'
+alias bsize='du -skh * | sort -h'
 alias chbash='chsh -s $(which bash)'
+alias langde='setxkbmap de && xmodmap ~/dotfiles/Xmodmap/Xmodmap-de'
+alias langpt='setxkbmap br && xmodmap ~/dotfiles/Xmodmap/Xmodmap-pt'
 alias reload='exec zsh'
-alias langde='setxkbmap de && xmodmap ~/dotfiles/Xmodmap/Xmodmap.de'
-alias langpt='setxkbmap br && xmodmap ~/dotfiles/Xmodmap/Xmodmap.pt'
 
 # Navigation
 alias h='cd ~'
@@ -30,11 +31,11 @@ alias dot='cd ~/dotfiles'
 alias cfv='vim ~/.vimrc'
 alias cft='vim ~/.tmux.conf'
 alias cfb='vim ~/.bashrc'
-alias cfa='vim ~/.oh-my-zsh/custom/alias.zsh'
 alias cfy='vim ~/.config/alacritty/alacritty.yml'
 alias cfz='vim ~/.zshrc'
 alias cfg='vim ~/.gitconfig'
 alias cfm='vim ~/.Xmodmap'
+alias cfa='vim ~/.oh-my-zsh/custom/alias.zsh'
 alias cfh='sudo vim /etc/hosts'
 
 # Tools

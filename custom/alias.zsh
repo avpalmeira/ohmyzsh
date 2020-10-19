@@ -41,3 +41,4 @@ alias cfh='sudo vim /etc/hosts'
 # Tools
 alias svim='vim -u ~/.SpaceVim/vimrc'
 alias fd='fdfind'
+alias open='thunar .'

@@ -24,11 +24,6 @@ alias re='reboot'
 alias dev='cd ~/local-dev'
 alias dot='cd ~/dotfiles'
 
-# Projects
-alias rclq='cd ~/local-dev/izepay/clique && vagrant up && cd htdocs'
-alias cclq='cd ~/local-dev/izepay/clique/htdocs && vim .'
-alias dclq='cd ~/local-dev/izepay/clique/htdocs'
-
 # Edit config files
 alias cfv='vim ~/.vimrc'
 alias cft='vim ~/.tmux.conf'

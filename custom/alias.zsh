@@ -24,7 +24,7 @@ alias off='shutdown -h now'
 alias re='reboot'
 
 # Favorite folders
-alias dev='cd ~/local-dev'
+alias dev='cd ~/source/dev'
 alias dot='cd ~/dotfiles'
 
 # Edit config files
